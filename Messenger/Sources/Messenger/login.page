@@ -1,0 +1,196 @@
+<?xml  version="1.0" encoding="UTF-8" standalone="no"?>
+<xmi:XMI xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmi:version="2.0" xmi:id="0.6" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:graphics="http://scade.com/sdk/view/graphics" xmlns:layout="http://scade.com/sdk/layout" xmlns:navigation="http://scade.com/lattice/navigation" xmlns:widgets="http://scade.com/sdk/view/widgets">
+  <widgets:Page name="login">
+    <minArea width="414" height="736"/>
+    <location/>
+    <backgroundColor Red="33" Green="34" Blue="44"/>
+    <children xsi:type="widgets:NavigationBar" name="navigationBar">
+      <children xsi:type="widgets:Button" horizontalAlignment="CENTER" paddingLeft="20" name="backButton" paddingRight="20">
+        <font fontFamily="ArialMT" size="17">
+          <color Red="68" Green="106" Blue="179"/>
+        </font>
+        <layoutData xsi:type="layout:AutoLayoutData">
+          <constraints source="/0/@children.0/@children.0" target="/0/@children.0"/>
+          <constraints sourceAnchor="CENTER_Y" targetAnchor="CENTER_Y" source="/0/@children.0/@children.0" target="/0/@children.0"/>
+        </layoutData>
+        <location y="7"/>
+        <size width="72" height="32"/>
+        <contentSize width="32" height="32"/>
+      </children>
+      <children xsi:type="widgets:Label" text="Sign In" name="signInLabel">
+        <font fontFamily="SFProRounded-Semibold" size="16">
+          <color Red="255" Green="255" Blue="255"/>
+        </font>
+        <layoutData xsi:type="layout:AutoLayoutData">
+          <constraints sourceAnchor="CENTER_X" targetAnchor="CENTER_X" source="/0/@children.0/@children.1" target="/0/@children.0"/>
+          <constraints sourceAnchor="CENTER_Y" targetAnchor="CENTER_Y" source="/0/@children.0/@children.1" target="/0/@children.0"/>
+        </layoutData>
+        <location x="183" y="14"/>
+        <size width="48" height="19"/>
+        <contentSize width="48" height="19"/>
+      </children>
+      <layout xsi:type="layout:AutoLayout"/>
+      <maxArea width="-1" height="-1"/>
+      <location/>
+      <minArea height="46"/>
+      <size width="414" height="46"/>
+      <layoutData xsi:type="layout:GridData" verticalAlignment="MIDDLE" grabHorizontalSpace="true">
+        <maxSize width="-1" height="-1"/>
+      </layoutData>
+    </children>
+    <children xsi:type="widgets:ListView" paddingLeft="20" name="UserCredentialInputSection" paddingRight="20" paddingTop="10" paddingBottom="5">
+      <children xsi:type="widgets:GridView" paddingLeft="5" name="userEmailGridView" paddingRight="5" paddingTop="5" paddingBottom="5">
+        <children xsi:type="widgets:Label" text="Email Address" name="emailLabel">
+          <font fontFamily="SFProRounded-Semibold" size="12">
+            <color Red="93" Green="96" Blue="113"/>
+          </font>
+          <layoutData xsi:type="layout:GridData" verticalAlignment="MIDDLE">
+            <maxSize width="-1" height="-1"/>
+          </layoutData>
+          <location x="5" y="5"/>
+          <size width="76" height="14"/>
+          <contentSize width="76" height="14"/>
+        </children>
+        <children xsi:type="widgets:Textbox" placeholder="Enter your email address" paddingLeft="2" name="emailTextbox">
+          <font fontFamily="SFProRounded-Semibold" size="20">
+            <color Red="255" Green="255" Blue="255"/>
+          </font>
+          <layoutData xsi:type="layout:GridData" row="1" verticalAlignment="MIDDLE" grabHorizontalSpace="true" widthConstraint="MATCH_PARENT">
+            <maxSize width="-1" height="-1"/>
+          </layoutData>
+          <location x="5" y="19"/>
+          <size width="364" height="24"/>
+          <contentSize width="364" height="24"/>
+        </children>
+        <layout xsi:type="layout:GridLayout" rows="2"/>
+        <maxArea width="-1" height="-1"/>
+        <location x="20" y="10"/>
+        <minArea/>
+        <size width="374" height="48"/>
+        <layoutData xsi:type="layout:GridData" horizontalAlignment="CENTER" verticalAlignment="MIDDLE" grabHorizontalSpace="true" widthConstraint="MATCH_PARENT">
+          <maxSize width="-1" height="-1"/>
+        </layoutData>
+      </children>
+      <children xsi:type="widgets:GridView" paddingLeft="5" name="userPasswordGridView" paddingRight="5" paddingTop="5" paddingBottom="5">
+        <children xsi:type="widgets:Label" text="Password" name="passwordLabel">
+          <font fontFamily="SFProRounded-Semibold" size="12">
+            <color Red="93" Green="96" Blue="113"/>
+          </font>
+          <layoutData xsi:type="layout:GridData" verticalAlignment="MIDDLE" grabHorizontalSpace="true">
+            <maxSize width="-1" height="-1"/>
+          </layoutData>
+          <location x="5" y="5"/>
+          <size width="52" height="14"/>
+          <contentSize width="52" height="14"/>
+        </children>
+        <children xsi:type="widgets:Textbox" placeholder="Enter password (min. of 8 characters)" tabIndex="1" secure="true" paddingLeft="2" name="passwordTextbox">
+          <font fontFamily="SFProRounded-Semibold" size="20">
+            <color Red="255" Green="255" Blue="255"/>
+          </font>
+          <layoutData xsi:type="layout:GridData" row="1" verticalAlignment="MIDDLE" grabHorizontalSpace="true" widthConstraint="MATCH_PARENT">
+            <maxSize width="-1" height="-1"/>
+          </layoutData>
+          <location x="5" y="19"/>
+          <size width="364" height="24"/>
+          <contentSize width="364" height="24"/>
+        </children>
+        <layout xsi:type="layout:GridLayout" rows="2"/>
+        <maxArea width="-1" height="-1"/>
+        <location x="20" y="73"/>
+        <minArea/>
+        <size width="374" height="48"/>
+        <layoutData xsi:type="layout:GridData" row="1" horizontalAlignment="CENTER" verticalAlignment="MIDDLE" grabHorizontalSpace="true" widthConstraint="MATCH_PARENT">
+          <maxSize width="-1" height="-1"/>
+        </layoutData>
+      </children>
+      <children xsi:type="widgets:Label" name="alertUserLoginErrorLabel">
+        <font fontFamily="SFProRounded-Regular" size="14">
+          <color Red="255" Green="255" Blue="255"/>
+        </font>
+        <layoutData xsi:type="layout:GridData" row="2" verticalAlignment="MIDDLE" grabHorizontalSpace="true">
+          <maxSize width="-1" height="-1"/>
+        </layoutData>
+        <location x="20" y="136"/>
+        <size/>
+        <contentSize/>
+      </children>
+      <children xsi:type="widgets:Button" text="Forgot Password?" horizontalAlignment="CENTER" paddingTop="5" paddingRight="20" paddingLeft="20" paddingBottom="5" name="forgotPasswordButton">
+        <font fontFamily="SFProRounded-Bold" size="18">
+          <color Red="255" Green="255" Blue="255"/>
+        </font>
+        <layoutData xsi:type="layout:GridData" row="3" horizontalAlignment="CENTER" verticalAlignment="MIDDLE" grabHorizontalSpace="true" widthConstraint="MATCH_PARENT">
+          <maxSize width="-1" height="-1"/>
+        </layoutData>
+        <location x="20" y="151"/>
+        <size width="374" height="32"/>
+        <contentSize width="147" height="22"/>
+      </children>
+      <layout xsi:type="layout:GridLayout" rows="4" verticalSpacing="15"/>
+      <maxArea width="-1" height="-1"/>
+      <location y="46"/>
+      <minArea/>
+      <size width="414" height="345"/>
+      <layoutData xsi:type="layout:GridData" row="1" verticalAlignment="MIDDLE" heightConstraint="MATCH_PARENT" grabHorizontalSpace="true" grabVerticalSpace="true" widthConstraint="MATCH_PARENT">
+        <maxSize width="-1" height="-1"/>
+      </layoutData>
+    </children>
+    <children xsi:type="widgets:ListView" paddingLeft="5" name="LoginActionsView" paddingRight="5" paddingTop="5" paddingBottom="5">
+      <children xsi:type="widgets:Button" horizontalAlignment="CENTER" paddingLeft="20" name="signInButton" paddingRight="20">
+        <font fontFamily="ArialMT" size="17">
+          <color Red="68" Green="106" Blue="179"/>
+        </font>
+        <layoutData xsi:type="layout:GridData" horizontalAlignment="CENTER" verticalAlignment="MIDDLE" heightConstraint="MATCH_PARENT" widthConstraint="MATCH_PARENT" grabVerticalSpace="true" grabHorizontalSpace="true">
+          <maxSize width="-1" height="-1"/>
+        </layoutData>
+        <location x="5" y="5"/>
+        <size width="404" height="86"/>
+        <contentSize width="311" height="58"/>
+      </children>
+      <children xsi:type="widgets:Label" text="New to this App?" name="newToTheAppLabel" horizontalAlignment="CENTER">
+        <font fontFamily="SFProRounded-Semibold" size="16">
+          <color Red="255" Green="255" Blue="255"/>
+        </font>
+        <layoutData xsi:type="layout:GridData" row="1" horizontalAlignment="CENTER" verticalAlignment="MIDDLE" heightConstraint="MATCH_PARENT" grabHorizontalSpace="true" grabVerticalSpace="true" widthConstraint="MATCH_PARENT">
+          <maxSize width="-1" height="-1"/>
+        </layoutData>
+        <location x="5" y="91"/>
+        <size width="404" height="83"/>
+        <contentSize width="120" height="19"/>
+      </children>
+      <children xsi:type="widgets:Button" text="Create a new Account" paddingLeft="20" name="createAccountButton" horizontalAlignment="CENTER" paddingRight="20">
+        <font fontFamily="SFProRounded-Bold" size="18">
+          <color Red="255" Green="255" Blue="255"/>
+        </font>
+        <layoutData xsi:type="layout:GridData" row="2" horizontalAlignment="CENTER" verticalAlignment="MIDDLE" heightConstraint="MATCH_PARENT" grabHorizontalSpace="true" grabVerticalSpace="true" widthConstraint="MATCH_PARENT">
+          <maxSize width="-1" height="-1"/>
+        </layoutData>
+        <location x="5" y="174"/>
+        <size width="404" height="83"/>
+        <contentSize width="180" height="22"/>
+      </children>
+      <children xsi:type="widgets:Button" horizontalAlignment="CENTER" paddingLeft="20" name="agreementText" paddingRight="20">
+        <font fontFamily="ArialMT" size="17">
+          <color Red="68" Green="106" Blue="179"/>
+        </font>
+        <layoutData xsi:type="layout:GridData" row="3" horizontalAlignment="CENTER" verticalAlignment="MIDDLE" heightConstraint="MATCH_PARENT" grabHorizontalSpace="true" grabVerticalSpace="true" widthConstraint="MATCH_PARENT">
+          <maxSize width="-1" height="-1"/>
+        </layoutData>
+        <location x="5" y="257"/>
+        <size width="404" height="83"/>
+        <contentSize width="305" height="34"/>
+      </children>
+      <layout xsi:type="layout:GridLayout" rows="4"/>
+      <maxArea width="-1" height="-1"/>
+      <location y="391"/>
+      <minArea/>
+      <size width="414" height="345"/>
+      <layoutData xsi:type="layout:GridData" row="2" verticalAlignment="MIDDLE" heightConstraint="MATCH_PARENT" grabHorizontalSpace="true" grabVerticalSpace="true" widthConstraint="MATCH_PARENT">
+        <maxSize width="-1" height="-1"/>
+      </layoutData>
+    </children>
+    <layout xsi:type="layout:GridLayout" rows="3"/>
+    <maxArea width="414" height="736"/>
+    <size width="414" height="736"/>
+  </widgets:Page>
+  <navigation:Navigation page="/0"/>
+</xmi:XMI>

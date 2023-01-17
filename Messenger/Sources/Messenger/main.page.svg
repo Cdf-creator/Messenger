@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:scade="http://www.scade.io/v0.1" eObject-URI="main.page#/0" widget-name="main" width="414" height="736">
+  <rect template-id="background" width="100%" height="100%" fill="#21222c" />
+  <svg template-id="content-box">
+    <g template-id="content">
+      <svg viewBox="0 0 319 1" xmlns="http://www.w3.org/2000/svg" template-id="content-background" width="319" height="1" fill="none">
+        <rect width="319" height="1" fill="#323441" />
+      </svg>
+      <g template-id="children-content">
+        <svg eObject-URI="main.page#/0/@children.0" widget-name="navigationBar" width="404" height="46" x="5">
+          <svg template-id="content-box">
+            <g template-id="content">
+              <g template-id="children-content">
+                <svg eObject-URI="main.page#/0/@children.0/@children.0" widget-name="logOutButton" y="14" width="76" height="19">
+                  <svg template-id="content-box" x="20" width="56" height="19">
+                    <g template-id="content">
+                      <text text-anchor="middle" alignment-baseline="central" font-size="16" font-family="SFProDisplay-Semibold" font-style="normal" text-decoration="none" template-id="node-text" x="28" y="9.5" fill="#ff3399">Log Out</text>
+                    </g>
+                  </svg>
+                </svg>
+                <svg widget-name="clearButton" eObject-URI="main.page#/0/@children.0/@children.1" x="346" y="14" width="58" height="19">
+                  <svg template-id="content-box" width="38" height="19">
+                    <g template-id="content">
+                      <text text-anchor="middle" alignment-baseline="central" font-size="16" font-family="SFProDisplay-Semibold" font-style="normal" text-decoration="none" template-id="node-text" x="19" y="9.5" fill="#ff3399">Clear</text>
+                    </g>
+                  </svg>
+                </svg>
+              </g>
+            </g>
+          </svg>
+        </svg>
+        <svg widget-name="MovieTypesSection" eObject-URI="main.page#/0/@children.1" width="404" height="230" x="5" y="46">
+          <svg template-id="content-box">
+            <g template-id="content">
+              <g template-id="children-content">
+                <svg widget-name="typeLabel" eObject-URI="main.page#/0/@children.1/@children.0" x="5" y="20" width="46" height="14">
+                  <svg template-id="content-box" x="20" width="26" height="14">
+                    <g template-id="content">
+                      <text alignment-baseline="central" font-size="12" font-family="SFProRounded-Semibold" font-style="normal" text-decoration="none" template-id="node-text" x="0" y="7" fill="#5d6071">Type</text>
+                    </g>
+                  </svg>
+                </svg>
+                <svg widget-name="allTypesRow" eObject-URI="main.page#/0/@children.1/@children.1" x="5" y="49" width="394" height="44">
+                  <svg template-id="content-box">
+                    <g template-id="content">
+                      <g template-id="children-content">
+                        <svg widget-name="allTypesLabel" eObject-URI="main.page#/0/@children.1/@children.1/@children.0" x="5" y="10" width="84" height="24">
+                          <svg template-id="content-box" x="20" width="64" height="24">
+                            <g template-id="content">
+                              <text alignment-baseline="central" font-size="20" font-family="SFCompactRounded-Semibold" font-style="normal" text-decoration="none" template-id="node-text" x="0" y="12" fill="#ffffff">All (99)</text>
+                            </g>
+                          </svg>
+                        </svg>
+                        <svg widget-name="allTypesCheckButton" eObject-URI="main.page#/0/@children.1/@children.1/@children.1" x="345" y="10" width="44" height="24">
+                          <svg template-id="content-box" width="24" height="24">
+                            <g template-id="content">
+                              <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" template-id="content-background" width="24" height="24" fill="none">
+                                <path stroke-width="2" stroke-linejoin="round" stroke-linecap="round" d="M 4 12.5 L 9 17.5 L 20 6.5" stroke="#ff3399" />
+                              </svg>
+                              <text text-anchor="middle" alignment-baseline="central" font-size="17" font-family="ArialMT" font-style="normal" text-decoration="none" template-id="node-text" x="12" y="12" fill="#446ab3" />
+                            </g>
+                          </svg>
+                        </svg>
+                      </g>
+                    </g>
+                  </svg>
+                </svg>
+                <svg eObject-URI="main.page#/0/@children.1/@children.2" widget-name="movieTypesLabel" x="5" y="93" width="114" height="44">
+                  <svg template-id="content-box" x="20" width="94" height="44">
+                    <g template-id="content">
+                      <text alignment-baseline="central" font-size="20" font-family="SFCompactRounded-Semibold" font-style="normal" text-decoration="none" template-id="node-text" x="0" y="22" fill="#ffffff">Movie (76)</text>
+                    </g>
+                  </svg>
+                </svg>
+                <svg eObject-URI="main.page#/0/@children.1/@children.3" widget-name="tvMiniSeriesLabel" x="5" y="137" width="176" height="44">
+                  <svg template-id="content-box" x="20" width="156" height="44">
+                    <g template-id="content">
+                      <text alignment-baseline="central" font-size="20" font-family="SFCompactRounded-Semibold" font-style="normal" text-decoration="none" template-id="node-text" x="0" y="22" fill="#ffffff">TV Mini Series (4)</text>
+                    </g>
+                  </svg>
+                </svg>
+                <svg eObject-URI="main.page#/0/@children.1/@children.4" widget-name="tvSeriesLabel" x="5" y="181" width="142" height="44">
+                  <svg template-id="content-box" x="20" width="122" height="44">
+                    <g template-id="content">
+                      <text alignment-baseline="central" font-size="20" font-family="SFCompactRounded-Semibold" font-style="normal" text-decoration="none" template-id="node-text" x="0" y="22" fill="#ffffff">TV Series (19)</text>
+                    </g>
+                  </svg>
+                </svg>
+              </g>
+            </g>
+          </svg>
+        </svg>
+        <svg widget-name="MovieGenresSection" eObject-URI="main.page#/0/@children.2" width="404" height="230" x="5" y="276">
+          <svg template-id="content-box">
+            <g template-id="content">
+              <g template-id="children-content">
+                <svg widget-name="genresLabel" eObject-URI="main.page#/0/@children.2/@children.0" x="5" y="15" width="59" height="24">
+                  <svg template-id="content-box" x="20" y="10" width="39" height="14">
+                    <g template-id="content">
+                      <text alignment-baseline="central" font-size="12" font-family="SFCompactRounded-Semibold" font-style="normal" text-decoration="none" template-id="node-text" x="0" y="7" fill="#5d6071">Genres</text>
+                    </g>
+                  </svg>
+                </svg>
+                <svg eObject-URI="main.page#/0/@children.2/@children.1" widget-name="allGenresRow" x="5" y="49" width="394" height="44">
+                  <svg template-id="content-box">
+                    <g template-id="content">
+                      <g template-id="children-content">
+                        <svg eObject-URI="main.page#/0/@children.2/@children.1/@children.0" widget-name="allGenresLabel" x="5" y="10" width="84" height="24">
+                          <svg template-id="content-box" x="20" width="64" height="24">
+                            <g template-id="content">
+                              <text alignment-baseline="central" font-size="20" font-family="SFCompactRounded-Semibold" font-style="normal" text-decoration="none" template-id="node-text" x="0" y="12" fill="#ffffff">All (99)</text>
+                            </g>
+                          </svg>
+                        </svg>
+                        <svg eObject-URI="main.page#/0/@children.2/@children.1/@children.1" widget-name="allGenresCheckButton" x="345" y="10" width="44" height="24">
+                          <svg template-id="content-box" width="24" height="24">
+                            <g template-id="content">
+                              <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" template-id="content-background" width="24" height="24" fill="none">
+                                <path stroke-width="2" stroke-linejoin="round" stroke-linecap="round" d="M 4 12.5 L 9 17.5 L 20 6.5" stroke="#ff3399" />
+                              </svg>
+                              <text text-anchor="middle" alignment-baseline="central" font-size="17" font-family="ArialMT" font-style="normal" text-decoration="none" template-id="node-text" x="12" y="12" fill="#446ab3" />
+                            </g>
+                          </svg>
+                        </svg>
+                      </g>
+                    </g>
+                  </svg>
+                </svg>
+                <svg eObject-URI="main.page#/0/@children.2/@children.2" widget-name="actionGenresLabel" x="5" y="93" width="120" height="44">
+                  <svg template-id="content-box" x="20" width="100" height="44">
+                    <g template-id="content">
+                      <text alignment-baseline="central" font-size="20" font-family="SFCompactRounded-Semibold" font-style="normal" text-decoration="none" template-id="node-text" x="0" y="22" fill="#ffffff">Action (43)</text>
+                    </g>
+                  </svg>
+                </svg>
+                <svg eObject-URI="main.page#/0/@children.2/@children.3" widget-name="adventureGenresLabel" x="5" y="137" width="155" height="44">
+                  <svg template-id="content-box" x="20" width="135" height="44">
+                    <g template-id="content">
+                      <text alignment-baseline="central" font-size="20" font-family="SFCompactRounded-Semibold" font-style="normal" text-decoration="none" template-id="node-text" x="0" y="22" fill="#ffffff">Adventure (26)</text>
+                    </g>
+                  </svg>
+                </svg>
+                <svg eObject-URI="main.page#/0/@children.2/@children.4" widget-name="animationLabel" x="5" y="181" width="143" height="44">
+                  <svg template-id="content-box" x="20" width="123" height="44">
+                    <g template-id="content">
+                      <text alignment-baseline="central" font-size="20" font-family="SFCompactRounded-Semibold" font-style="normal" text-decoration="none" template-id="node-text" x="0" y="22" fill="#ffffff">Animation (4)</text>
+                    </g>
+                  </svg>
+                </svg>
+              </g>
+            </g>
+          </svg>
+        </svg>
+        <svg widget-name="ApplyButtonSection" eObject-URI="main.page#/0/@children.3" width="404" height="200" x="5" y="536">
+          <svg template-id="content-box">
+            <g template-id="content">
+              <g template-id="children-content">
+                <svg widget-name="applyButton" eObject-URI="main.page#/0/@children.3/@children.0" x="26" y="71" width="351" height="58">
+                  <svg template-id="content-box" x="20" width="311" height="58">
+                    <g template-id="content">
+                      <svg viewBox="0 0 311 58" xmlns="http://www.w3.org/2000/svg" template-id="content-background" width="311" height="58" fill="none">
+                        <rect width="311" height="58" rx="12" fill="#ff3399" />
+                        <path d="M 133.431 35.167 C 134.134 35.167 134.529 34.8154 134.775 33.9717 L 135.443 31.9941 H 140.022 L 140.69 33.998 C 140.928 34.8242 141.323 35.167 142.07 35.167 C 142.844 35.167 143.397 34.6484 143.397 33.9189 C 143.397 33.6553 143.354 33.418 143.23 33.0752 L 139.75 23.6357 C 139.372 22.5986 138.757 22.1416 137.72 22.1416 C 136.718 22.1416 136.094 22.6162 135.725 23.6445 L 132.262 33.0752 C 132.147 33.4004 132.086 33.6992 132.086 33.9189 C 132.086 34.6836 132.604 35.167 133.431 35.167 z M 136.023 29.9375 L 137.667 24.7432 H 137.729 L 139.407 29.9375 H 136.023 z M 146.078 38.3574 C 146.834 38.3574 147.361 37.9004 147.361 37.0215 V 33.418 H 147.414 C 147.915 34.4814 148.97 35.1494 150.341 35.1494 C 152.696 35.1494 154.155 33.3213 154.155 30.2891 C 154.155 27.248 152.688 25.4287 150.297 25.4287 C 148.935 25.4287 147.889 26.1143 147.379 27.2217 H 147.326 V 26.7119 C 147.326 25.8418 146.799 25.3848 146.061 25.3848 C 145.322 25.3848 144.795 25.8418 144.795 26.7031 V 37.0215 C 144.795 37.9004 145.331 38.3574 146.078 38.3574 z M 149.436 33.084 C 148.179 33.084 147.353 31.9941 147.353 30.2891 C 147.353 28.6016 148.179 27.4854 149.436 27.4854 C 150.719 27.4854 151.527 28.584 151.527 30.2891 C 151.527 32.0029 150.719 33.084 149.436 33.084 z M 156.766 38.3574 C 157.521 38.3574 158.049 37.9004 158.049 37.0215 V 33.418 H 158.102 C 158.603 34.4814 159.657 35.1494 161.028 35.1494 C 163.384 35.1494 164.843 33.3213 164.843 30.2891 C 164.843 27.248 163.375 25.4287 160.984 25.4287 C 159.622 25.4287 158.576 26.1143 158.066 27.2217 H 158.014 V 26.7119 C 158.014 25.8418 157.486 25.3848 156.748 25.3848 C 156.01 25.3848 155.482 25.8418 155.482 26.7031 V 37.0215 C 155.482 37.9004 156.019 38.3574 156.766 38.3574 z M 160.123 33.084 C 158.866 33.084 158.04 31.9941 158.04 30.2891 C 158.04 28.6016 158.866 27.4854 160.123 27.4854 C 161.406 27.4854 162.215 28.584 162.215 30.2891 C 162.215 32.0029 161.406 33.084 160.123 33.084 z M 167.515 35.1846 C 168.271 35.1846 168.798 34.7275 168.798 33.8486 V 23.4688 C 168.798 22.5898 168.271 22.124 167.515 22.124 C 166.768 22.124 166.231 22.5898 166.231 23.4688 V 33.8486 C 166.231 34.7275 166.768 35.1846 167.515 35.1846 z M 172.129 38.4893 C 174.194 38.4893 175.284 37.5928 176.163 35.1582 L 179.055 27.3008 C 179.143 27.0547 179.195 26.7559 179.195 26.5449 C 179.195 25.8682 178.686 25.3848 177.947 25.3848 C 177.288 25.3848 176.919 25.6924 176.708 26.4043 L 174.66 32.9434 H 174.616 L 172.568 26.4219 C 172.357 25.6748 172.006 25.3848 171.329 25.3848 C 170.573 25.3848 170.002 25.8857 170.002 26.5801 C 170.002 26.791 170.055 27.0723 170.151 27.3359 L 173.157 35.2637 L 173.025 35.5977 C 172.718 36.2568 172.234 36.4502 171.786 36.4502 C 171.61 36.4502 171.514 36.4414 171.338 36.4414 C 170.758 36.4414 170.397 36.7666 170.397 37.2852 C 170.397 38.0586 171.004 38.4893 172.129 38.4893 z" fill="#ffffff" />
+                      </svg>
+                      <text text-anchor="middle" alignment-baseline="central" font-size="17" font-family="ArialMT" font-style="normal" text-decoration="none" template-id="node-text" x="155.5" y="29" fill="#446ab3" />
+                    </g>
+                  </svg>
+                </svg>
+              </g>
+            </g>
+          </svg>
+        </svg>
+      </g>
+    </g>
+  </svg>
+</svg>
